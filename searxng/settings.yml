@@ -5,5 +5,17 @@ server:
   secret_key: "ultrasecretkey"  # change this!
   limiter: false  # enable this when running the instance for a public usage on the internet
   image_proxy: true
+general:
+  debug: false
+  instance_name:  "Tanula Haku"
+  privacypolicy_url: false
+  donation_url: false
+  contact_url: false
+  enable_metrics: true
+  open_metrics: ''
+search:
+  safe_search: 0
+  autocomplete: "duckduckgo"
+  default_lang: "fi"
 redis:
   url: redis://redis:6379/0
