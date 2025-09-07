@@ -23,7 +23,7 @@ installation methods however.
 
 ```shell
 cd /usr/local
-git clone https://github.com/searxng/searxng-docker.git
+git clone https://github.com/tanuliini/searxng-docker.git
 cd searxng-docker
 ```
 
